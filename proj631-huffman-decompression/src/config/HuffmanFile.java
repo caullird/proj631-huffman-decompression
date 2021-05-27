@@ -38,7 +38,7 @@ public class HuffmanFile {
 	
 	public void writeResultFile(HuffmanFile binaryFile, HuffmanFile freqFile, String trad) {
 		try {
-			File file = new File("src/data/result_data/" + freqFile.getName());
+			File file = new File("src/data/result_data/result_" + freqFile.getName());
 			file.createNewFile();
 			
 			FileWriter writer = new FileWriter(file);
