@@ -1,5 +1,6 @@
 package config;
 
+import java.awt.Desktop;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
@@ -44,6 +45,9 @@ public class HuffmanFile {
 			FileWriter writer = new FileWriter(file);
 			writer.write(trad);
 			writer.close();
+			
+			Desktop desktop = Desktop.getDesktop();
+			desktop.open(file);
 			
 			
 		} catch (IOException e) {
