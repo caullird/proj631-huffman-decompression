@@ -23,6 +23,6 @@ public class HuffmanDecode {
 		HuffmanFile writeResult = new HuffmanFile();
 		
 		writeResult.writeResultFile(binaryFile,freqFile,convertString.BinaryStringTranslation());
-	
+		
 	}
 }
