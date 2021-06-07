@@ -41,20 +41,19 @@ public class HuffmanTraduction {
 		
 		for(char bin: this.getBinString()) {
 			
-			HuffmanNode getCurrent = this.getTree().getCurrent();
-			
-			if(getCurrent.isLeaf()){
-				resultString += getCurrent.getStringChar();
-				this.tree.getRootNode();
-			}			
-			
 			if(bin == "0".charAt(0)) {
 				this.tree.getLeftNode();
 			}else {
 				this.tree.getRightNode();
 			}
 			
-		}
+			
+			if(this.getTree().getCurrent().isLeaf()){
+				resultString += this.getTree().getCurrent().getStringChar();
+				this.tree.getRootNode();
+			}			
+				
+		}	
 		return resultString;
 	}
 	
