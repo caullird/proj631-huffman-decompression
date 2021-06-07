@@ -32,6 +32,18 @@ public class HuffmanTree implements HuffmanTreeInterface {
 		this.generateHuffmanTree();
 	}
 	
+	public ArrayList<HuffmanNode> generateNodeList(){
+		
+		ArrayList<HuffmanNode> nodes = new ArrayList<>();
+		
+		for(Enumeration<?> character = frequency.keys(); character.hasMoreElements(); ) {
+			String c = character.nextElement().toString();
+			nodes.add(new HuffmanNode(c, this.getFrequency().get(c).toString()));
+		}
+		
+		return nodes;
+	}
+	
 	public void generateHuffmanTree() {
 		
 		/* generateHuffmanTree() function
@@ -42,15 +54,12 @@ public class HuffmanTree implements HuffmanTreeInterface {
 		 * 
 		 */
 		
-		ArrayList<HuffmanNode> nodes = new ArrayList<>();
-		for(Enumeration<?> character = frequency.keys(); character.hasMoreElements(); ) {
-			String c = character.nextElement().toString();
-			nodes.add(new HuffmanNode(c, this.getFrequency().get(c).toString()));
-		}
+		ArrayList<HuffmanNode> nodes = this.generateNodeList();
 		
-		Collections.sort(nodes);
-		
+		System.out.println(nodes);
+
 		while(nodes.size() > 1) {
+			Collections.sort(nodes);
 			nodes.add(new HuffmanNode(nodes.remove(0), nodes.remove(0)));		
 		}
 		
