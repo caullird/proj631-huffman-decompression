@@ -64,7 +64,10 @@ public class HuffmanNode implements Comparable<HuffmanNode>, HuffmanNodeInterfac
 		 * 
 		 */
 		
-		return this.getWeight() - unNode.getWeight(); 
+		if(this.getWeight() != unNode.getWeight()) {
+			return this.getWeight() - unNode.getWeight();
+		}
+		return(this.getStringChar() + "").compareTo((unNode.getStringChar() + ""));
 	}	
 	
 	public boolean isLeaf() { 
