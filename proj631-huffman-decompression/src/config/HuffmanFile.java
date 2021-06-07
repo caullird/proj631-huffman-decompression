@@ -8,11 +8,30 @@ import java.io.IOException;
 import java.util.Scanner;
 
 
-public class HuffmanFile {
+ /* Class File 
+ * 
+ * Implements : FileInterface
+ * 
+ * Global file management
+ * 
+ */
+
+public class HuffmanFile implements FileInterface {
 
 	private File file;
 	private char[] content;
 
+	
+	/* Constructor of the File Class
+	 * 
+	 * Create File Object 
+	 * 
+	 * Override constructor: Possibility to make an object without any
+	 * element (allows the creation of a file) or directly with a 
+	 * file as a parameter.
+	 * 
+	 */
+	
 	public HuffmanFile() {}
 	
 	public HuffmanFile(String link) {
@@ -21,6 +40,15 @@ public class HuffmanFile {
 	}
 	
 	public char[] getContentFile() {
+		
+		/* getContentFile() function
+		 * 
+		 * Allows you to retrieve the contents of a file 
+		 * 
+		 * @Override : getContentFile() in FileInterface
+		 * 
+		 */
+		
 		String result = "";
 		Scanner myReader;
 		try {
@@ -38,6 +66,15 @@ public class HuffmanFile {
 	}
 	
 	public void writeResultFile(HuffmanFile binaryFile, HuffmanFile freqFile, String trad) {
+		
+		/* writeResultFile() function
+		 * 
+		 * Allows you to write the results to a file and open that file for the user
+		 * 
+		 * @Override : writeResultFile() in FileInterface
+		 * 
+		 */
+		
 		try {
 			File file = new File("src/data/result_data/result_" + freqFile.getName());
 			file.createNewFile();
@@ -54,6 +91,24 @@ public class HuffmanFile {
 			e.printStackTrace();
 		}
 	}
+	
+	/* Getters & Setters
+	 * 
+	 * 
+	 * Function allowing the modification and recovery of the elements of the object
+	 * 
+     * Getters 
+     * ----------
+     *	- getFile() : is used to retrieve the "file" element 
+	 *  - getName() : is used to retrieve the fileName element
+	 * 	- getContent() : is used to retried the file content element
+	 *  
+	 * Setters 
+	 * ----------
+	 *  - setFile() : is used to modify the file element
+	 *  - setContent() : is used to modify the content element
+	 * 
+	 */
 	
 	public File getFile() { return file; }
 
