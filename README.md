@@ -64,7 +64,7 @@ The program traverses the tree with the binary string
 polycrew
 ```
 
-## Fabriqué avec
+##  Made with
 
 * [Java](https://www.java.com/fr/)
 * [Eclipse](https://www.eclipse.org/) - Java IDE
@@ -75,7 +75,7 @@ polycrew
 **Latest release** 1.0
 
 
-## Auteurs
+## Authors
 
 * **CAULLIREAU Dorian** _alias_ [@caullird](https://github.com/caullird)
 
