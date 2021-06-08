@@ -12,26 +12,12 @@ Clone the repo:
 git clone git@github.com:caullird/proj631-huffman-decompression.git
 ```
 
-### Pré-requis
+## How to use the program?
 
-Ce qu'il est requis pour commencer avec votre projet...
-
-- Programme 1
-- Programme 2
-- etc...
-
-### Installation
-
-Les étapes pour installer votre programme....
-
-Dites ce qu'il faut faire...
-
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
-
-
-Ensuite vous pouvez montrer ce que vous obtenez au final...
-
-## Démarrage
+```java
+    String freqFile = "src/data/initial_data/poly_freq.txt";
+		String binaryFile = "src/data/initial_data/poly_comp.txt";
+```
 
 Dites comment faire pour lancer votre projet
 
