@@ -56,8 +56,6 @@ public class HuffmanTree implements HuffmanTreeInterface {
 		
 		ArrayList<HuffmanNode> nodes = this.generateNodeList();
 		
-		System.out.println(nodes);
-
 		while(nodes.size() > 1) {
 			Collections.sort(nodes);
 			nodes.add(new HuffmanNode(nodes.remove(0), nodes.remove(0)));		
