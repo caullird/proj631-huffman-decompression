@@ -25,6 +25,45 @@ Run your program, a window with the result will appear!
 
 ### Example of execution
 
+**First Step :** 
+
+The program retrieves the binary string
+
+```bin
+100011010111000101001110
+```
+
+**Second Step :**
+
+The program retrieves the frequency dictionary
+
+```bin
+8
+p 1
+o 1
+l 1
+y 1
+c 1
+r 1
+e 1
+w 1
+```
+
+**Third Step :**
+
+The program generates the Huffman tree
+
+![image](https://user-images.githubusercontent.com/54810120/121153320-3fe26680-c846-11eb-9bc3-6ef37c1a6cf9.png)
+
+
+**Fourth Step :**
+
+The program traverses the tree with the binary string
+
+```java
+polycrew
+```
+
 ## Fabriqué avec
 
 Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
