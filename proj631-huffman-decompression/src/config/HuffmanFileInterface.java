@@ -1,6 +1,6 @@
 package config;
 
-public interface FileInterface {
+public interface HuffmanFileInterface {
 
 	/* getContentFile() function
 	 * 

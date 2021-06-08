@@ -16,7 +16,7 @@ import java.util.Scanner;
  * 
  */
 
-public class HuffmanFile implements FileInterface {
+public class HuffmanFile implements HuffmanFileInterface {
 
 	private File file;
 	private char[] content;
