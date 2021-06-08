@@ -4,6 +4,16 @@
 
 This program, using a binary string and a frequency dictionary, allows to decode a text that has been coded by the Huffman method
 
+## Milestones of the project  
+1. Learn about the Huffman Algorithm
+2. Think about all different classes
+3. Implement the main structure of the project
+4. Open & read files (content, frequences, characters)
+5. Implements Nodes structure
+6. Huffman Tree implementation (based on frequences of characters)
+7. How to run through the Huffman Tree in order to obtain the decompression of compressed text
+8. Write the decompressed text in a file 
+
 ## How to install the program?
 
 Clone the repo:
