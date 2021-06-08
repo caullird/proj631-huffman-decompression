@@ -15,8 +15,8 @@ git clone git@github.com:caullird/proj631-huffman-decompression.git
 ## How to use the program?
 
 ```java
-    String freqFile = "src/data/initial_data/poly_freq.txt";
-		String binaryFile = "src/data/initial_data/poly_comp.txt";
+String freqFile = "src/data/initial_data/poly_freq.txt";
+String binaryFile = "src/data/initial_data/poly_comp.txt";
 ```
 
 Dites comment faire pour lancer votre projet
