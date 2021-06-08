@@ -9,7 +9,7 @@ This program, using a binary string and a frequency dictionary, allows to decode
 Clone the repo:
 
 ```sh
-git@github.com:caullird/proj631-huffman-decompression.git
+git clone git@github.com:caullird/proj631-huffman-decompression.git
 ```
 
 ### Pré-requis
