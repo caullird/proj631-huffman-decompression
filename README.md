@@ -89,7 +89,6 @@ polycrew
 
 * **CAULLIREAU Dorian** _alias_ [@caullird](https://github.com/caullird)
 
-Read the list of [contributors](https://github.com/your/project/contributors) to see who helped with the project!
 
 
 
