@@ -1,11 +1,10 @@
-# Titre du projet
-_(juste en dessous des badges sympatiques à placer)_
+# Decompression of coded data by the Huffman method
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-Une petite description du projet
+This program, using a binary string and a frequency dictionary, allows to decode a text that has been coded by the Huffman method
 
-## Pour commencer
+## How to use the program ?
 
 Entrez ici les instructions pour bien débuter avec votre projet...
 
