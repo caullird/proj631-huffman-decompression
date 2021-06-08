@@ -23,7 +23,7 @@ String binaryFile = "src/data/initial_data/poly_comp.txt";
 
 Run your program, a window with the result will appear! 
 
-### Example of execution
+## Example of execution
 
 **First Step :** 
 
@@ -66,34 +66,22 @@ polycrew
 
 ## Fabriqué avec
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
-
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
-
-## Contributing
-
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
+* [Java](https://www.java.com/fr/)
+* [Eclipse](https://www.eclipse.org/) - Java IDE
 
 ## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
+
+**Latest stable release :** 1.0
+**Latest release** 1.0
+
 
 ## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
 
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
+* **CAULLIREAU Dorian** _alias_ [@caullird](https://github.com/caullird)
 
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
+Read the list of [contributors](https://github.com/your/project/contributors) to see who helped with the project!
 
-## License
 
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+
 
 
