@@ -4,9 +4,13 @@
 
 This program, using a binary string and a frequency dictionary, allows to decode a text that has been coded by the Huffman method
 
-## How to use the program ?
+## How to install the program?
 
-Entrez ici les instructions pour bien débuter avec votre projet...
+Clone the repo:
+
+```sh
+git@github.com:caullird/proj631-huffman-decompression.git
+```
 
 ### Pré-requis
 
